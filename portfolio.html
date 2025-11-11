@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY PORTFOLIO</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="portfolio.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h2 class="logo"><img id="logo1" src="favicon.ico" alt=""></h2>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="resume">RESUME</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="cont1" id="home">
+    <div class="left">
+      <div class="wrap">
+        <div class="quote">
+          <h1 id="name1">KARTIK SINGH</h1><br>
+          <p id="txt1">HELLO!</p>
+          <p id="txt2">I am a passionate Computer Science student and aspiring software engineer. <br> I love turning ideas into interactive digital experiences. <br> Beyond coding, i enjoy exploring new ideas and build projects that brings a difference. <br> I believe technology should not just work - it should feel simple, intuitive and human. </p>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="img-wrapper"><img id="img1" src="myimg.jpg" alt="profile pic" width="300px" height="300px"></div>
+    </div>
+  </div>
+  <section id="projects" class="projects-section">
+    <h1>PROJECTS</h1>
+    <div class="projects-container">
+      <div class="project-list">
+        <div class="project-item" data-description="A frontend-only website designed for movie enthusiasts, offering a curated collection of film suggestions displayed across multiple pages using a pagination effect.
+                    Users can easily browse, explore, and discover new movies through an intuitive filter-based search system.
+                    The platform also provides a wishlist feature, allowing users to conveniently add or remove movies they love or plan to watch later.
+                    It delivers a smooth, visually appealing, and interactive experience for all movie lovers.">
+          <a href="https://cine-verse-six-blush.vercel.app/" target="_blank">CINE-VERSE</a>
+        </div>
+        <div class="project-item" data-description="An AI-powered web application that converts written descriptions or prompts into realistic scene visuals with impressive detail and accuracy. It enables users to explore their imagination by generating visuals directly from text input.
+                    The web-app also includes customizable filter options, allowing users to modify various aspects such as lighting, tone, genre or the number of generated scene.
+                    This provides a highly interactive and creative experience for artists, writers, and visual thinkers alike.">
+          <a href="https://github.com/Kartikk13/TEXT-TO-STORY-IMG-AI" target="_blank">TEXT TO SCENES GENERATOR</a>
+        </div>
+        <div class="project-item" data-description="A desktop application designed to assess vision clarity using the Snellen's Eye Chart, built with Python and Tkinter.
+                    It allows users to test their visual acuity interactively through a simple and user-friendly interface.
+                    The app calculates the visual acuity score based on user responses and provides real-time feedback.
+                    It serves as a convenient tool for basic eye testing and vision evaluation at home or in clinical demonstrations.">
+          VISION-EASE
+        </div>
+      </div>
+      <div class="project-description" id="description-box">
+        Hover over a project name to see details here.
+      </div>
+    </div>
+  </section>
+  <!-- ========== SKILLS & TOOLS SECTION ========== -->
+  <section id="skills" class="skills-section">
+    <h1>SKILLS & TOOLS</h1>
+
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+        <div class="skill-items">
+          <div class="skill"><i class="fa-solid fa-c"></i> C</div>
+          <div class="skill"><i class="fa-solid fa-code"></i> C++</div>
+          <div class="skill"><i class="fa-brands fa-python"></i> Python</div>
+          <div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
+          <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+          <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-wrench"></i> Tools & Technologies</h3>
+        <div class="skill-items">
+          <div class="skill"><i class="fa-solid fa-code"></i> VS Code</div>
+          <div class="skill"><i class="fa-brands fa-git-alt"></i> Git</div>
+          <div class="skill"><i class="fa-brands fa-github"></i> GitHub</div>
+          <div class="skill"><i class="fa-brands fa-kaggle"></i> Kaggle</div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-lightbulb"></i> Currently Exploring</h3>
+        <div class="skill-items">
+          <div class="skill"><i class="fa-brands fa-react"></i> React.js</div>
+          <div class="skill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+          <div class="skill"><i class="fa-solid fa-database"></i> MongoDB</div>
+          <div class="skill"><i class="fa-solid fa-server"></i> Express.js</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" class="contact-section">
+    <h1>CONTACT</h1>
+    <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
+    <div class="contact-links">
+      <a href="mailto:kartik.singh13082005@gmail.com" target="_blank">
+        <i class="fa-solid fa-envelope"></i> Email
+      </a>
+      <a href="https://github.com/Kartikk13" target="_blank">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/kartik-singh13" target="_blank">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </section>
+
+
+</body>
+
+</html>
